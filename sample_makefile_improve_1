@@ -20,4 +20,4 @@ display.o insert.o search.o files.o : buffer.h
 
 .PHONY:clean
 clean :
-	rm edit $(objects)
+	-rm edit $(objects)
